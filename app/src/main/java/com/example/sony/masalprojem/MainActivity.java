@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity  {
 
+    //deneme yorum
     // Declaring Your View and Variables
 
     Toolbar toolbar;
