@@ -22,12 +22,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Aslan, kurt ve tilki arkadaş olup avlanmaya çıkmışlar. Günün sonunda, bir öküz, bir keçi ve bir de tavşan avlayan kafadarlar avlarını bir mağaraya getirmişler. Aslan kurda dönerek “Hadi bakalım!” demiş. “Şu hayvanları paylaştır da karnımızı doyuralım.” Demiş. Kurt ezile büzüle: “Ey büyük sultanım.” Demiş. “Şu öküzü siz buyurun, keçi benim, tavşanda tilki kardeşin olsun.” Demiş. Aslan birden çok kızmış. Ve “Bre küstah!” demiş. Sen kim oluyorsun? Ben varken sana pay etmek düşer mi?” Sonra da bir pençe darbesiyle kurdu yere sermiş. Bu kez tilkiye dönüp “Öyle aval aval bakma da paylaştır şu avları bakalım.” Demiş. Tilki “Pay etmek haddim değil ama madem emir buyurdunuz söyleyeyim. Tavşan sabah kahvaltınız, öküz öğle yemeğiniz olur. Keçiyi de akşam yersiniz.” Demiş. Aslan bu paylaştırmadan çok hoşlanmış ve tilkiye, bu kadar adil bir paylaştırmayı nereden öğrendiğini sormuş. Tilki de: “Yüce efendim!” demiş. “Şu haddini bilmez kurdun halinden öğrendim.” Demiş.
+                android:text="Hansel ve Gratel"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
 
-Kaynak: http://www.dersimiz.com/masal/Adil-Paylastirma-Masal-Oku-232.html#.VRhj9fmsV8E"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/hikaye1"
                 android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anasayfa"
+                android:id="@+id/btnAnasayfa"
                 android:layout_gravity="center_horizontal" />
 
             </LinearLayout>
     </ScrollView>
+
+
 </LinearLayout>
