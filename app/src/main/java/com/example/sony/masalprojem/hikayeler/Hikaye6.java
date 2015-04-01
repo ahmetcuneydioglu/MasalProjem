@@ -1,22 +1,24 @@
-package com.example.sony.masalprojem;
+package com.example.sony.masalprojem.hikayeler;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.sony.masalprojem.MainActivity;
+import com.example.sony.masalprojem.R;
+
 /**
- * Created by sony on 29.03.2015.
+ * Created by mersin on 01.04.2015.
  */
-public class Hikaye1 extends Activity {
+public class Hikaye6 extends Activity {
 
     Button btnAnasayfa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.hikaye1);
+        setContentView(R.layout.hikaye6);
 
         btnAnasayfa= (Button) findViewById(R.id.btnAnasayfa);
 
@@ -24,7 +26,7 @@ public class Hikaye1 extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent=new Intent(Hikaye1.this,MainActivity.class);
+                Intent intent=new Intent(Hikaye6.this,MainActivity.class);
                 startActivity(intent);
             }
         });

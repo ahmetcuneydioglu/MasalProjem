@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:lineSpacingExtra="20dp"
-                android:text="@string/hikaye1"
+                android:text="@string/hikaye2"
                 android:id="@+id/textView2"
                 android:layout_gravity="center_horizontal" />
 
@@ -34,7 +34,7 @@
                 android:id="@+id/btnAnasayfa"
                 android:layout_gravity="center_horizontal" />
 
-            </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
 

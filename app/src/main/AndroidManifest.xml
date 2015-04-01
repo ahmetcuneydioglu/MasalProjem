@@ -17,7 +17,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Hikaye1"></activity>
+        <activity android:name=".hikayeler.Hikaye1"></activity>
+        <activity android:name=".hikayeler.Hikaye2"></activity>
+        <activity android:name=".hikayeler.Hikaye3"></activity>
+        <activity android:name=".hikayeler.Hikaye4"></activity>
+        <activity android:name=".hikayeler.Hikaye5"></activity>
+        <activity android:name=".hikayeler.Hikaye6"></activity>
     </application>
 
 </manifest>
