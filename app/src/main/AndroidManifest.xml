@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/masal"
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
@@ -26,6 +26,15 @@
         <activity android:name=".hikayeler.Hikaye7"></activity>
         <activity android:name=".hikayeler.Hikaye8"></activity>
         <activity android:name=".hikayeler.Hikaye9"></activity>
+        <activity android:name=".hikayeler.Hikaye10"></activity>
+        <activity android:name=".hikayeler.Hikaye11"></activity>
+        <activity android:name=".hikayeler.Hikaye12"></activity>
+        <activity android:name=".hikayeler.Hikaye13"></activity>
+        <activity android:name=".hikayeler.Hikaye14"></activity>
+        <activity android:name=".hikayeler.Hikaye15"></activity>
+
+        <activity android:name=".Sesli.Sesli1"></activity>
+
     </application>
 
 </manifest>

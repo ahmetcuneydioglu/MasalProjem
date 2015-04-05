@@ -10,6 +10,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.sony.masalprojem.hikayeler.Hikaye1;
+import com.example.sony.masalprojem.hikayeler.Hikaye10;
+import com.example.sony.masalprojem.hikayeler.Hikaye11;
+import com.example.sony.masalprojem.hikayeler.Hikaye12;
+import com.example.sony.masalprojem.hikayeler.Hikaye13;
+import com.example.sony.masalprojem.hikayeler.Hikaye14;
+import com.example.sony.masalprojem.hikayeler.Hikaye15;
 import com.example.sony.masalprojem.hikayeler.Hikaye2;
 import com.example.sony.masalprojem.hikayeler.Hikaye3;
 import com.example.sony.masalprojem.hikayeler.Hikaye4;
@@ -60,6 +66,13 @@ public class Tab1 extends Fragment{
         hikaye7= (Button) getActivity().findViewById(R.id.button7);
         hikaye8= (Button) getActivity().findViewById(R.id.button8);
         hikaye9= (Button) getActivity().findViewById(R.id.button9);
+        hikaye10= (Button) getActivity().findViewById(R.id.button10);
+        hikaye11= (Button) getActivity().findViewById(R.id.button11);
+        hikaye12= (Button) getActivity().findViewById(R.id.button12);
+        hikaye13= (Button) getActivity().findViewById(R.id.button13);
+        hikaye14= (Button) getActivity().findViewById(R.id.button14);
+        hikaye15= (Button) getActivity().findViewById(R.id.button15);
+
 
         hikaye1.setOnClickListener(new View.OnClickListener() {
             @Override
