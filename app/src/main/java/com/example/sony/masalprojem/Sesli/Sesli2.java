@@ -1,18 +1,15 @@
 package com.example.sony.masalprojem.Sesli;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.sony.masalprojem.MainActivity;
 import com.example.sony.masalprojem.R;
 
 import java.util.concurrent.TimeUnit;
@@ -20,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by sony on 05.04.2015.
  */
-public class Sesli1 extends Activity {
+public class Sesli2 extends Activity {
 
     public TextView songName,startTimeField,endTimeField;
     //private MediaPlayer mediaPlayer,mediaPlayer2;
@@ -35,22 +32,22 @@ public class Sesli1 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sesli1);
+        setContentView(R.layout.sesli2);
         songName= (TextView) findViewById(R.id.textView4);
         startTimeField= (TextView) findViewById(R.id.textView1);
         endTimeField= (TextView) findViewById(R.id.textView2);
         seekbar= (SeekBar) findViewById(R.id.seekBar1);
         playButton= (ImageButton) findViewById(R.id.imageButton1);
         pauseButton= (ImageButton) findViewById(R.id.imageButton2);
-        songName.setText("kel1.mp3");
-        media1=MediaPlayer.create(this,R.raw.kel1);
+        songName.setText("Keloðlan ile Dev Anasý");
+        media1=MediaPlayer.create(this,R.raw.kel2);
         seekbar.setClickable(false);
         pauseButton.setEnabled(false);
 
     }
 
     public void play(View view){
-        Toast.makeText(getApplicationContext(), "Playing sound",
+        Toast.makeText(getApplicationContext(), "Hikaye Baþlatýldý",
                 Toast.LENGTH_SHORT).show();
 
         media1.start();

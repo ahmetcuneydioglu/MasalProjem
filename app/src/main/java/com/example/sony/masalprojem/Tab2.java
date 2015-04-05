@@ -8,8 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.sony.masalprojem.Sesli.Sesli1;
+import com.example.sony.masalprojem.Sesli.Sesli2;
 import com.example.sony.masalprojem.hikayeler.Hikaye1;
 import com.example.sony.masalprojem.hikayeler.Hikaye10;
 import com.example.sony.masalprojem.hikayeler.Hikaye2;
@@ -28,16 +30,9 @@ import com.example.sony.masalprojem.hikayeler.Hikaye9;
 public class Tab2 extends Fragment {
 
 
-    Button hikaye1;
-    Button hikaye2;
-    Button hikaye3;
-    Button hikaye4;
-    Button hikaye5;
-    Button hikaye6;
-    Button hikaye7;
-    Button hikaye8;
-    Button hikaye9;
-    Button hikaye10;
+    Button sesli1;
+    Button sesli2;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -45,23 +40,14 @@ public class Tab2 extends Fragment {
         return v;
     }
 
-
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        hikaye1= (Button) getActivity().findViewById(R.id.button);
-        hikaye2= (Button) getActivity().findViewById(R.id.button2);
-        hikaye3= (Button) getActivity().findViewById(R.id.button3);
-        hikaye4= (Button) getActivity().findViewById(R.id.button4);
-        hikaye5= (Button) getActivity().findViewById(R.id.button5);
-        hikaye6= (Button) getActivity().findViewById(R.id.button6);
-        hikaye7= (Button) getActivity().findViewById(R.id.button7);
-        hikaye8= (Button) getActivity().findViewById(R.id.button8);
-        hikaye9= (Button) getActivity().findViewById(R.id.button9);
-        hikaye10= (Button) getActivity().findViewById(R.id.button10);
 
+        sesli1= (Button) getActivity().findViewById(R.id.sesli1);
+        sesli2= (Button) getActivity().findViewById(R.id.sesli2);
 
-        hikaye1.setOnClickListener(new View.OnClickListener() {
+        sesli1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getActivity(),Sesli1.class);
@@ -69,75 +55,10 @@ public class Tab2 extends Fragment {
             }
         });
 
-
-        hikaye2.setOnClickListener(new View.OnClickListener() {
+        sesli2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye2.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye3.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye4.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye5.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye6.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye7.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye8.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye9.class);
-                startActivity(intent);
-            }
-        });
-
-        hikaye10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),Hikaye10.class);
+                Intent intent=new Intent(getActivity(),Sesli2.class);
                 startActivity(intent);
             }
         });

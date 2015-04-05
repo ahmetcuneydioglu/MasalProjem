@@ -33,7 +33,9 @@
         <activity android:name=".hikayeler.Hikaye14"></activity>
         <activity android:name=".hikayeler.Hikaye15"></activity>
 
+
         <activity android:name=".Sesli.Sesli1"></activity>
+        <activity android:name=".Sesli.Sesli2"></activity>
 
     </application>
 
