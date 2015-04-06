@@ -36,6 +36,14 @@
 
         <activity android:name=".Sesli.Sesli1"></activity>
         <activity android:name=".Sesli.Sesli2"></activity>
+        <activity android:name=".Sesli.Sesli3"></activity>
+        <activity android:name=".Sesli.Sesli4"></activity>
+        <activity android:name=".Sesli.Sesli5"></activity>
+        <activity android:name=".Sesli.Sesli6"></activity>
+        <activity android:name=".Sesli.Sesli7"></activity>
+        <activity android:name=".Sesli.Sesli8"></activity>
+        <activity android:name=".Sesli.Sesli9"></activity>
+        <activity android:name=".Sesli.Sesli10"></activity>
 
     </application>
 

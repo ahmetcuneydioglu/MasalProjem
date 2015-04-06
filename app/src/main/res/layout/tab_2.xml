@@ -31,9 +31,83 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
                 android:text="Keloğlan ile Dev Anası"
                 android:id="@+id/sesli2"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Hikaye 3"
+                android:id="@+id/sesli3"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Hikaye4"
+                android:id="@+id/sesli4"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye 5"
+                android:id="@+id/sesli5"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye6"
+                android:id="@+id/sesli6"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye7"
+                android:id="@+id/sesli7"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye8"
+                android:id="@+id/sesli8"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye9"
+                android:id="@+id/sesli9"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="hikaye10"
+                android:id="@+id/sesli10"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonshape"/>
 
 
         </LinearLayout>

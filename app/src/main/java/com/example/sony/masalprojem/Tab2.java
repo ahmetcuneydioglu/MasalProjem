@@ -11,7 +11,15 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.sony.masalprojem.Sesli.Sesli1;
+import com.example.sony.masalprojem.Sesli.Sesli10;
 import com.example.sony.masalprojem.Sesli.Sesli2;
+import com.example.sony.masalprojem.Sesli.Sesli3;
+import com.example.sony.masalprojem.Sesli.Sesli4;
+import com.example.sony.masalprojem.Sesli.Sesli5;
+import com.example.sony.masalprojem.Sesli.Sesli6;
+import com.example.sony.masalprojem.Sesli.Sesli7;
+import com.example.sony.masalprojem.Sesli.Sesli8;
+import com.example.sony.masalprojem.Sesli.Sesli9;
 import com.example.sony.masalprojem.hikayeler.Hikaye1;
 import com.example.sony.masalprojem.hikayeler.Hikaye10;
 import com.example.sony.masalprojem.hikayeler.Hikaye2;
@@ -32,6 +40,15 @@ public class Tab2 extends Fragment {
 
     Button sesli1;
     Button sesli2;
+    Button sesli3;
+    Button sesli4;
+    Button sesli5;
+    Button sesli6;
+    Button sesli7;
+    Button sesli8;
+    Button sesli9;
+    Button sesli10;
+
 
 
     @Override
@@ -46,6 +63,14 @@ public class Tab2 extends Fragment {
 
         sesli1= (Button) getActivity().findViewById(R.id.sesli1);
         sesli2= (Button) getActivity().findViewById(R.id.sesli2);
+        sesli3= (Button) getActivity().findViewById(R.id.sesli3);
+        sesli4= (Button) getActivity().findViewById(R.id.sesli4);
+        sesli5= (Button) getActivity().findViewById(R.id.sesli5);
+        sesli6= (Button) getActivity().findViewById(R.id.sesli6);
+        sesli7= (Button) getActivity().findViewById(R.id.sesli7);
+        sesli8= (Button) getActivity().findViewById(R.id.sesli8);
+        sesli9= (Button) getActivity().findViewById(R.id.sesli9);
+        sesli10= (Button) getActivity().findViewById(R.id.sesli10);
 
         sesli1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,5 +87,71 @@ public class Tab2 extends Fragment {
                 startActivity(intent);
             }
         });
+
+        sesli3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli3.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli4.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli5.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli6.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli7.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli8.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Sesli9.class);
+                startActivity(intent);
+            }
+        });
+
+        sesli10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(), Sesli10.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
