@@ -91,9 +91,18 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/imageButton1"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
         android:text="TextView" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pamuk"
+        android:id="@+id/imageView9"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_alignEnd="@+id/imageButton4" />
 
 
 </RelativeLayout>

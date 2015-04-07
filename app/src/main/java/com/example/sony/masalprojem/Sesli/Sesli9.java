@@ -47,7 +47,7 @@ public class Sesli9 extends Activity {
     }
 
     public void play(View view){
-        Toast.makeText(getApplicationContext(), "Hikaye Baï¿½latï¿½ldï¿½",
+        Toast.makeText(getApplicationContext(), "Hikaye Baþlatýldý",
                 Toast.LENGTH_SHORT).show();
 
         media1.start();

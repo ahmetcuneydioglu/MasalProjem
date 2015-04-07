@@ -39,7 +39,7 @@ public class Sesli3 extends Activity {
         seekbar= (SeekBar) findViewById(R.id.seekBar1);
         playButton= (ImageButton) findViewById(R.id.imageButton1);
         pauseButton= (ImageButton) findViewById(R.id.imageButton2);
-        songName.setText("Bremen Mızıkacıları");
+        songName.setText("Bremen Mizika..");
         media1=MediaPlayer.create(this,R.raw.bremen);
         seekbar.setClickable(false);
         pauseButton.setEnabled(false);
@@ -47,7 +47,7 @@ public class Sesli3 extends Activity {
     }
 
     public void play(View view){
-        Toast.makeText(getApplicationContext(), "Hikaye Ba�lat�ld�",
+        Toast.makeText(getApplicationContext(), "Hikaye Baslatildi",
                 Toast.LENGTH_SHORT).show();
 
         media1.start();

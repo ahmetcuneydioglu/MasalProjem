@@ -39,7 +39,7 @@ public class Sesli6 extends Activity {
         seekbar= (SeekBar) findViewById(R.id.seekBar1);
         playButton= (ImageButton) findViewById(R.id.imageButton1);
         pauseButton= (ImageButton) findViewById(R.id.imageButton2);
-        songName.setText("KÄ±rmÄ±zÄ± BaÅŸlÄ±klÄ± KÄ±z");
+        songName.setText("Kırmızı Başlıklı Kız");
         media1=MediaPlayer.create(this,R.raw.kirmizi_baslikli_kiz);
         seekbar.setClickable(false);
         pauseButton.setEnabled(false);

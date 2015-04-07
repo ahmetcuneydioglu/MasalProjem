@@ -99,8 +99,11 @@
         android:layout_height="350dp"
         android:src="@drawable/bayantavuk"
         android:id="@+id/imageView2"
+        android:layout_above="@+id/seekBar1"
+        android:layout_marginBottom="62dp"
         android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

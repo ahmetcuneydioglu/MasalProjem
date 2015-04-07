@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="Hikaye 3"
+                android:text="Bremen Mızıkacıları"
                 android:id="@+id/sesli3"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="Hikaye4"
+                android:text="Minik Böcek"
                 android:id="@+id/sesli4"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye 5"
+                android:text="Çapalı Çiçekler"
                 android:id="@+id/sesli5"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye6"
+                android:text="Kırmızı Başlıklı Kız"
                 android:id="@+id/sesli6"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye7"
+                android:text="Kılavuz Balık"
                 android:id="@+id/sesli7"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -86,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye8"
+                android:text="Maymunla Tilki"
                 android:id="@+id/sesli8"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -95,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye9"
+                android:text="Pamuk Prenses"
                 android:id="@+id/sesli9"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="hikaye10"
+                android:text="Trafik Lambası"
                 android:id="@+id/sesli10"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>
