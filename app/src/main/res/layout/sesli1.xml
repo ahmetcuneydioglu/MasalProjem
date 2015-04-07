@@ -91,8 +91,19 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/imageButton1"
+        android:layout_marginLeft="20dp"
         android:text="TextView" />
 
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView3"
+        android:layout_toStartOf="@+id/textView4"
+        android:src="@drawable/hansel"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_above="@+id/seekBar1" />
 
 
 </RelativeLayout>

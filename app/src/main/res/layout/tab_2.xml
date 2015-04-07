@@ -21,7 +21,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hansel ve Gratel"
+                android:text="Ağustos Böceği ile Karınca"
                 android:id="@+id/sesli1"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="Keloğlan ile Dev Anası"
+                android:text="Bayan Tavuk"
                 android:id="@+id/sesli2"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttonshape"/>

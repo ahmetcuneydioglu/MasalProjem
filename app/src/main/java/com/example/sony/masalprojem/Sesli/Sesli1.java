@@ -43,7 +43,7 @@ public class Sesli1 extends Activity {
         playButton= (ImageButton) findViewById(R.id.imageButton1);
         pauseButton= (ImageButton) findViewById(R.id.imageButton2);
         songName.setText("kel1.mp3");
-        media1=MediaPlayer.create(this,R.raw.kel1);
+        media1=MediaPlayer.create(this,R.raw.agustos_bocegi);
         seekbar.setClickable(false);
         pauseButton.setEnabled(false);
 

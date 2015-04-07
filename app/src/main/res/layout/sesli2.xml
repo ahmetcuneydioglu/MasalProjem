@@ -91,8 +91,16 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/imageButton1"
+        android:layout_marginLeft="20dp"
         android:text="TextView" />
 
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/bayantavuk"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

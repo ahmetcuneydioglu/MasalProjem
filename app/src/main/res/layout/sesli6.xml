@@ -91,6 +91,7 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/imageButton1"
+        android:layout_marginLeft="20dp"
         android:text="TextView" />
 
 
