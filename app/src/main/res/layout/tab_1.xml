@@ -42,7 +42,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye3"
+                    android:text="Bilge Kaplumbağa"
                     android:id="@+id/button3"
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
@@ -52,7 +52,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 4"
+                    android:text="Beyaz Bulut ve Uçak"
                     android:id="@+id/button4"
                     android:layout_below="@+id/button3"
                     android:layout_centerHorizontal="true"
@@ -62,7 +62,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 5"
+                    android:text="Cici Kuş"
                     android:id="@+id/button5"
                     android:layout_below="@+id/button4"
                     android:layout_centerHorizontal="true"
@@ -72,7 +72,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 6"
+                    android:text="Çam Ağacı"
                     android:id="@+id/button6"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -83,7 +83,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 7"
+                    android:text="Çirkin Ördek Yavrusu"
                     android:id="@+id/button7"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -93,7 +93,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 8"
+                    android:text="Çakal ile Papağan"
                     android:id="@+id/button8"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -103,7 +103,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 9"
+                    android:text="Deve ile Fare"
                     android:id="@+id/button9"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -113,7 +113,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 10"
+                    android:text="Badem Ağacı"
                     android:id="@+id/button10"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -123,7 +123,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 11"
+                    android:text="Ağlayan Ağaç"
                     android:id="@+id/button11"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -134,7 +134,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 12"
+                    android:text="Adil Paylaştırma"
                     android:id="@+id/button12"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -144,7 +144,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 13"
+                    android:text="Akıllı Çoban"
                     android:id="@+id/button13"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -154,7 +154,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 14"
+                    android:text="Aslanın Sarayı"
                     android:id="@+id/button14"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
@@ -164,13 +164,14 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hikaye 15"
+                    android:text="Alın Teri"
                     android:id="@+id/button15"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="45dp"
                     android:background="@drawable/buttonshape"/>
 
+                <!--
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -220,6 +221,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="45dp"
                     android:background="@drawable/buttonshape"/>
+
+                    -->
 
             </LinearLayout>
 
