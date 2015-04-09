@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sony.masalprojemiz" >
+    package="com.masalprojem.first" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
-            android:name="com.example.sony.masalprojemiz.MainActivity"
+            android:name="com.masalprojem.first.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,33 +17,36 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye1"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye2"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye3"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye4"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye5"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye6"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye7"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye8"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye9"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye10"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye11"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye12"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye13"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye14"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.hikayeler.Hikaye15"></activity>
+        <activity android:name=".hikayeler.Hikaye1"></activity>
+        <activity android:name=".hikayeler.Hikaye2"></activity>
+        <activity android:name=".hikayeler.Hikaye3"></activity>
+        <activity android:name=".hikayeler.Hikaye4"></activity>
+        <activity android:name=".hikayeler.Hikaye5"></activity>
+        <activity android:name=".hikayeler.Hikaye6"></activity>
+        <activity android:name=".hikayeler.Hikaye7"></activity>
+        <activity android:name=".hikayeler.Hikaye8"></activity>
+        <activity android:name=".hikayeler.Hikaye9"></activity>
+        <activity android:name=".hikayeler.Hikaye10"></activity>
+        <activity android:name=".hikayeler.Hikaye11"></activity>
+        <activity android:name=".hikayeler.Hikaye12"></activity>
+        <activity android:name=".hikayeler.Hikaye13"></activity>
+        <activity android:name=".hikayeler.Hikaye14"></activity>
+        <activity android:name=".hikayeler.Hikaye15"></activity>
 
 
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli1"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli2"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli3"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli4"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli5"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli6"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli7"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli8"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli9"></activity>
-        <activity android:name="com.example.sony.masalprojemiz.Sesli.Sesli10"></activity>
+
+        <activity android:name=".Sesli.Sesli1"></activity>
+        <activity android:name=".Sesli.Sesli2"></activity>
+        <activity android:name=".Sesli.Sesli3"></activity>
+        <activity android:name=".Sesli.Sesli4"></activity>
+        <activity android:name=".Sesli.Sesli5"></activity>
+        <activity android:name=".Sesli.Sesli6"></activity>
+        <activity android:name=".Sesli.Sesli7"></activity>
+        <activity android:name=".Sesli.Sesli8"></activity>
+        <activity android:name=".Sesli.Sesli9"></activity>
+        <activity android:name=".Sesli.Sesli10"></activity>
+
+
 
     </application>
 

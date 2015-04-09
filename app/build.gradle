@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.0"
+    buildToolsVersion '22.0.0'
     compileOptions.encoding = "windows-1254"
 
     defaultConfig {
-        applicationId "com.example.sony.masalprojem"
+        applicationId "com.masalprojem.first"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
